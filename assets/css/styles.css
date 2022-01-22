@@ -51,17 +51,24 @@ td:hover {
 }
 
 .hovers:hover {
+
   border-radius: 5px;
   transform: skewX(-5deg) scale(1.1);
 }
 
+.th-spec:hover {
+  border-radius: 5px;
+  transform: skew(5deg) scale(1.15);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 img {
   transition: 0.3s;
-  width: 134px;
+  width: 164px;
   height: 134px;
 }
 
 img:hover {
   border-radius: 5px;
-  transform: skewX(7deg) scale(1.1);
+  transform: skewX(7deg) scale(1.20);
 }
