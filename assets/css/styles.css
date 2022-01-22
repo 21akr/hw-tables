@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #cab8ff;
+}
+
+.main {
+  margin: 50px 50px;
+  background: #b5deff;
+}
+
+.table {
+  transition: 2s;
+  border: 30px outset;
+  height: 41.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table:hover {
+  border: 30px;
+  border-style: ridge;
+}
+
+table,
+th,
+td {
+  transition: 0.3s;
+  border: 1.7px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 250px;
+  height: 30px;
+  background: #c1ffd7;
+}
+
+th:hover {
+  background: #ffe162;
+}
+
+td:hover {
+  background: #fcffa6;
+}
+
+.hovers:hover {
+  border-radius: 5px;
+  transform: skewX(-5deg) scale(1.1);
+}
+
+img {
+  transition: 0.3s;
+  width: 134px;
+  height: 134px;
+}
+
+img:hover {
+  border-radius: 5px;
+  transform: skewX(7deg) scale(1.1);
+}
